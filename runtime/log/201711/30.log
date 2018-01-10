@@ -1,0 +1,142 @@
+---------------------------------------------------------------
+[ 2017-11-30T16:46:23+08:00 ] ::1 ::1 GET /thinkphp5/Public/
+[ info ] localhost/thinkphp5/Public/ [运行时间：0.115006s][吞吐率：8.70req/s] [内存消耗：1,307.80kb] [文件加载：41]
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9617510400; _ga=GA1.1.1653775819.1498274652; optimizelyEndUserId=oeu1506645334992r0.6560262398303917; pgv_si=s7865781248',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T16:46:24+08:00 ] ::1 ::1 GET /thinkphp5/Public/admin.html
+[ info ] localhost/thinkphp5/Public/admin.html [运行时间：0.517029s][吞吐率：1.93req/s] [内存消耗：5,088.32kb] [文件加载：73]
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9617510400; _ga=GA1.1.1653775819.1498274652; optimizelyEndUserId=oeu1506645334992r0.6560262398303917; pgv_si=s7865781248',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.050003s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'tpadmin'[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2017-11-30T16:48:22+08:00 ] ::1 ::1 GET /thinkphp5/Public/admin.html
+[ info ] localhost/thinkphp5/Public/admin.html [运行时间：0.312018s][吞吐率：3.20req/s] [内存消耗：5,116.24kb] [文件加载：76]
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9617510400; _ga=GA1.1.1653775819.1498274652; optimizelyEndUserId=oeu1506645334992r0.6560262398303917; pgv_si=s7865781248; PHPSESSID=1hb1d5bd9j3lvkg5ivde4i1165',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.tp_web_log_all' doesn't exist[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-30T16:49:27+08:00 ] ::1 ::1 GET /thinkphp5/Public/admin/pub/login.html
+[ info ] localhost/thinkphp5/Public/admin/pub/login.html [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：5,339.23kb] [文件加载：78]
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9617510400; _ga=GA1.1.1653775819.1498274652; optimizelyEndUserId=oeu1506645334992r0.6560262398303917; pgv_si=s7865781248; PHPSESSID=1hb1d5bd9j3lvkg5ivde4i1165',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.006000s ]
+[ info ] [ RUN ] app\admin\controller\Pub->login[ D:\xampp\htdocs\thinkphp5\application\admin\controller\Pub.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/admin\view\pub\login.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.tp_web_log_all' doesn't exist[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\db\Connection.php:388]
